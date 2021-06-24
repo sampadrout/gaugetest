@@ -28,10 +28,6 @@ jobs:
           sudo apt-get install -y curl zip
           curl -SsL https://downloads.gauge.org/stable | sh
 
-      - name: Installing npm
-        run: |
-          curl -qL https://www.npmjs.com/install.sh | sh
-
       - name: Installing taiko
         run: |
           npm install -g taiko
@@ -40,4 +36,3 @@ jobs:
       - name: Starting gauge test
         run: |
           gauge run --parallel specs
-          
