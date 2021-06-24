@@ -26,7 +26,7 @@ jobs:
       - name: Installing gauge
         run: |
           sudo apt-get install -y curl zip
-          curl -SsL https://downloads.gauge.org/stable
+          curl -SsL https://downloads.gauge.org/stable | sh
 
       # Runs a set of commands using the runners shell
       - name: Starting gauge test
