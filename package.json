@@ -5,6 +5,8 @@
     "test": "gauge run specs/"
   },
   "dependencies": {
-    "taiko": "latest"
+    "taiko": "latest",
+    "supertest": "^latest",
+    "chai": "^latest"
   }
 }

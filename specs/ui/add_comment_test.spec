@@ -10,7 +10,7 @@ This is to test the both valid and invalid login.
 
 ## Add a comment
 
-Tags: comment
+Tags: ui, comment
 
 This is the test scenario to add a comment
 

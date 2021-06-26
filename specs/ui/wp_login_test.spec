@@ -6,7 +6,7 @@ This is to test the both valid and invalid login
 
 ## Valid WP Login
 
-Tags: login
+Tags: ui, login
 
 This is the test scenario for valid login
 
@@ -20,7 +20,7 @@ This is the test scenario for valid login
 
 ## Invalid WP Login
 
-Tags: login
+Tags: ui, login
 
 This is the test scenario for invalid login
 
