@@ -52,8 +52,7 @@ jobs:
       # Deploy Gauge report
       - name: Deploy report to Github Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
         env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./reports/html-report
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports/html-report
