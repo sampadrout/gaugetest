@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "taiko": "latest",
-    "supertest": "^latest",
-    "chai": "^latest"
+    "supertest": "latest",
+    "chai": "latest"
   }
 }
