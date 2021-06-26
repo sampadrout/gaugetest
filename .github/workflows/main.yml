@@ -35,7 +35,11 @@ jobs:
       - name: Installing taiko
         run: |
           sudo npm i --unsafe-perm taiko
-          
+
+      - name: Installing supertest
+        run: |
+          sudo npm i --unsafe-perm supertest
+
       # Runs a set of commands using the runners shell
       - name: Starting gauge test
         run: |
