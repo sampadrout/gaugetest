@@ -8,7 +8,7 @@ description: Its a sample api test
 
 ## get airports
 Tags: getAirports, api
-* get airports
+* GET /airports
 
 ## calculates the distance between two airports
 Tags: postAirportsDistance, api

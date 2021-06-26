@@ -4,7 +4,7 @@ const expect = require('chai').expect;
 //const api = supertest('https://airportgap.dev-tester.com/api');
 
 
-step("get airports", async function() {
+step("GET /airports", async function() {
     const response = await request.get("/airports");
 
     expect(response.status).to.eql(200);
