@@ -4,9 +4,11 @@ This is to test the both valid and invalid login.
 
 * Open Wordpress application
 * Login to wordpress web
-    | username              | password  |
-    |-----------------------|-----------|
-    | sampad.qa@gmail.com   | Zz123456! |
+    | username              | password  | environment |
+    |-----------------------|-----------|-------------|
+    | sampad.qa@gmail.com   | Zz123456! | default     |
+    | sampad.qa@gmail.com   | Zz123456! | qa          |
+    | sampad.qa@gmail.com   | Zz123456! | uat         |
 
 ## Add a comment
 

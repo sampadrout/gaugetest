@@ -8,8 +8,10 @@ step("Click on Log In link", async function () {
 
 step("Enter invalid user name as <table>", async function (table) {
     for (var row of table.rows) {
-        await write(row.cells[0], into(textBox({id: "usernameOrEmail"})));
-        await click(button("Continue"));
+        if(row.cells[1] == process.env.gauge_environment) {
+            await write(row.cells[0], into(textBox({id: "usernameOrEmail"})));
+            await click(button("Continue"));
+        }
     }
 });
 

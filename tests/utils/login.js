@@ -5,11 +5,13 @@ const assert = require("assert");
 
 step("Login with username and password <table>", async function(table) {
     for (var row of table.rows) {
-        await click(link("Log In"), {waitForEvents:['loadEventFired']}); 
-        await write(row.cells[0], into(textBox({id: "usernameOrEmail"})));
-        await click(button("Continue"));
-        await write(row.cells[1], into(textBox({id: "password"})));
-        await click(button("Log In"));
+        if(row.cells[2] == process.env.gauge_environment) {
+            await click(link("Log In"), {waitForEvents:['loadEventFired']}); 
+            await write(row.cells[0], into(textBox({id: "usernameOrEmail"})));
+            await click(button("Continue"));
+            await write(row.cells[1], into(textBox({id: "password"})));
+            await click(button("Log In"));
+        }
     }
 });
 
