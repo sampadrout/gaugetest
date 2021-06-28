@@ -72,11 +72,11 @@
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:00</span>
+      <span>00:00:01</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jun 28, 2021 at 12:55pm</span>
+      <span>Jun 28, 2021 at 1:46pm</span>
     </li>
   </ul>
 
@@ -93,14 +93,22 @@
 
   
   <div class="error-container failed">
-    <div class="error-heading">Before Suite Failed:<span class="error-message"> Error: Failed to launch browser!<br/>[1797:1797:0628/125526.395235:ERROR:browser_main_loop.cc(1438)] Unable to open X display.<br/></span></div>
+    <div class="error-heading">Before Suite Failed:<span class="error-message"> Error: ENOENT: no such file or directory, stat &#39;/resources&#39;</span></div>
     <div class="toggle-show">
       [Show details]
     </div>
     <div class="exception-container hidden">
       <div class="exception">
-        <pre class="stacktrace">Error: Failed to launch browser!<br/>[1797:1797:0628/125526.395235:ERROR:browser_main_loop.cc(1438)] Unable to open X display.<br/><br/>    at onClose (node_modules/taiko/lib/browserFetcher.js:262:11)<br/>    at ChildProcess.&lt;anonymous&gt; (node_modules/taiko/lib/browserFetcher.js:251:63)<br/>    at ChildProcess.emit (events.js:388:22)<br/>    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)</pre>
+        <pre class="stacktrace">Error: ENOENT: no such file or directory, stat &#39;/resources&#39;<br/>    at Object.statSync (fs.js:1127:3)<br/>    at Object.statSync (node_modules/graceful-fs/polyfills.js:311:34)<br/>    at statSync (node_modules/fs-extra/lib/util/stat.js:10:52)<br/>    at getStatsSync (node_modules/fs-extra/lib/util/stat.js:24:19)<br/>    at Object.checkPathsSync (node_modules/fs-extra/lib/util/stat.js:49:33)<br/>    at Object.copySync (node_modules/fs-extra/lib/copy-sync/copy-sync.js:24:38)<br/>    at Object.&lt;anonymous&gt; (tests/utils/appLauncher.js:30:12)</pre>
       </div>
+      
+        <div class="screenshot-container">
+          <div class="screenshot">
+            <a href="images/screenshot-100184845808.png" rel="lightbox">
+              <img src="images/screenshot-100184845808.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        </div>
       
       
     </div>
