@@ -1,1 +1,1 @@
-var index = {"Tags":{"api":["specs/api/api_test.html"],"comment":["specs/ui/add_comment_test.html"],"e2e":["specs/api/api_test.html"],"getAirports":["specs/api/api_test.html"],"login":["specs/ui/wp_login_test.html"],"postAirportsDistance":["specs/api/api_test.html"],"ui":["specs/ui/wp_login_test.html","specs/ui/add_comment_test.html"]},"Specs":{"Add Comments tests":["specs/ui/add_comment_test.html"],"Wordpress Login tests":["specs/ui/wp_login_test.html"],"airport gap test":["specs/api/api_test.html"]}};
+var index = {"Tags":{},"Specs":{}};
